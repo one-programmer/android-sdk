@@ -12,7 +12,7 @@ RUN dpkg --add-architecture i386 \
 # Set up environment variables
 ENV ANDROID_HOME="/home/user/android-sdk-linux" \
     SDK_URL="https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip" \
-    GRADLE_URL="https://services.gradle.org/distributions/gradle-4.5.1-all.zip"
+    GRADLE_URL="https://services.gradle.org/distributions/gradle-4.10.2-all.zip"
 
 # Create a non-root user
 RUN useradd -m user
